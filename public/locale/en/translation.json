@@ -1,0 +1,12 @@
+{
+  "welcome": "Welcome to Tsapqo!",
+  "start_competition": "Start Competition",
+  "question": "Question",
+  "submit": "Submit Answer",
+  "home": {
+    "title": "Welcome to Tsapqo!",
+    "description": "This is a website that contains quizzes about the Quran, the Sunnah, and the Sahabah",
+    "quizzes": "Quizzes",
+    "learn": "Learn"
+  }
+}
