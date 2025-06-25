@@ -1,5 +1,39 @@
 @import "tailwindcss";
 
+/* Arabic Font Face Declarations */
+@font-face {
+  font-family: "CordaleArabic";
+  src: url("./assets/ArbFont1/ArbFONTS-CordaleArabic-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CordaleArabic";
+  src: url("./assets/ArbFont1/ArbFONTS-CordaleArabic-Bold.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "A Pixel", "Aktiv grotesk arabic", "CordaleArabic", sans-serif;
+  background-color: var(--color-tsapqoBg);
+  color: black;
+
+  ::selection {
+    background-color: #0f3547;
+    color: #fff;
+  }
+}
+
+@theme {
+  --color-tsapqoSbg: #d5c7b3;
+  --color-tsapqoBg: #c3b299;
+  --color-tsapqoGreen: #68896a;
+  --color-tsapqoBlue: #9dbebb;
+  --color-tsapqoYellow: #7a6f5f;
 }

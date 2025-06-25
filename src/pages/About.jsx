@@ -1,7 +1,8 @@
 import React from "react";
+import About from "../components/sections/about/About";
 
-const About = () => {
-  return <div className="text-3xl font-bold underline text-red-500">About</div>;
+const AboutPage = () => {
+  return <About />;
 };
 
-export default About;
+export default AboutPage;

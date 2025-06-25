@@ -1,12 +1,130 @@
 {
-  "welcome": "Welcome to Tsapqo!",
-  "start_competition": "Start Competition",
-  "question": "Question",
-  "submit": "Submit Answer",
-  "home": {
-    "title": "Welcome to Tsapqo!",
-    "description": "This is a website that contains quizzes about the Quran, the Sunnah, and the Sahabah",
+  "header": {
+    "logo": "Tsapqo",
+    "home": "Home",
+    "about": "About",
     "quizzes": "Quizzes",
-    "learn": "Learn"
+    "learn": "Lessons",
+    "leaderboard": "Leaderboard",
+    "login": "Login"
+  },
+  "home": {
+    "title": "Test your knowledge of the Quran, the Sunnah, and Islamic history",
+    "description": "Discover a world of learning and competition in Tsapqo! Test your Islamic knowledge through daily quizzes, challenge your friends, and learn more about Islam in a fun and interactive way",
+    "quizzes": "Test Yourself",
+    "learn": "Browse Lessons"
+  },
+  "lessons": {
+    "title": "Islamic Lessons",
+    "description": "Explore comprehensive lessons on Islamic topics, from Quranic studies to Islamic history",
+    "viewAll": "View All Lessons",
+    "items": {
+      "quran": {
+        "title": "Quranic Studies",
+        "description": "Learn about the Holy Quran, its interpretation, and memorization techniques",
+        "duration": "45 min",
+        "level": "Beginner"
+      },
+      "hadith": {
+        "title": "Hadith Studies",
+        "description": "Study the sayings and actions of Prophet Muhammad (PBUH)",
+        "duration": "30 min",
+        "level": "Intermediate"
+      },
+      "history": {
+        "title": "Islamic History",
+        "description": "Discover the rich history of Islamic civilization and its contributions",
+        "duration": "60 min",
+        "level": "Beginner"
+      },
+      "fiqh": {
+        "title": "Islamic Jurisprudence",
+        "description": "Learn about Islamic law and religious practices",
+        "duration": "40 min",
+        "level": "Advanced"
+      }
+    }
+  },
+  "leaderboard": {
+    "title": "Learn, Compete, Lead",
+    "subtitle": "Answer more quizzes, earn points, and lead the leaderboard",
+    "description": "The leaderboard is one of the most exciting features of Tsapqo! Track your progress, compete with friends, and see how you rank among the community. Every quiz you take earns you points, and the more you learn, the higher you climb.",
+    "leaderboard": "Leaderboard",
+    "features": {
+      "realTime": "Real-time rankings updated instantly",
+      "points": "Earn points for every correct answer",
+      "lessonsQuizzes": "Find lessons and take quizzes on any topic",
+      "community": "Make friends and compete with them"
+    },
+    "table": {
+      "rank": "Rank",
+      "user": "User",
+      "points": "Points",
+      "quizzes": "Quizzes",
+      "accuracy": "Accuracy"
+    },
+    "cta": "View Full Leaderboard"
+  },
+  "quizzes": {
+    "alert": {
+      "title": "Login For More Features",
+      "description": "Login to access quizzes and compete with your friends",
+      "action": "Login",
+      "close": "Continue Without Login"
+    }
+  },
+  "footer": {
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy",
+    "about": "About Us"
+  },
+  "about": {
+    "hero": {
+      "title": "About",
+      "subtitle": "Empowering learners through interactive quizzes and comprehensive educational experiences"
+    },
+    "whatIs": {
+      "title": "What is Tsapqo?",
+      "description1": "Tsapqo is an innovative educational platform designed to make learning engaging, interactive, and accessible to everyone. Our mission is to transform traditional learning methods into dynamic, quiz-based experiences that enhance knowledge retention and make education enjoyable.",
+      "description2": "Built with modern web technologies, Tsapqo provides a comprehensive learning environment where users can create, take, and share quizzes across various subjects. Whether you're a student looking to test your knowledge or an educator wanting to create engaging content, Tsapqo offers the tools you need.",
+      "description3": "Our platform features a user-friendly interface, real-time leaderboards, progress tracking, and a supportive community of learners and educators."
+    },
+    "purpose": {
+      "title": "Our Purpose",
+      "items": {
+        "item1": "Make learning accessible and engaging for everyone",
+        "item2": "Provide interactive quiz-based learning experiences",
+        "item3": "Build a community of learners and educators",
+        "item4": "Track progress and celebrate achievements"
+      }
+    },
+    "features": {
+      "title": "Key Features",
+      "quizzes": {
+        "title": "Interactive Quizzes",
+        "description": "Create and take engaging quizzes with various question types and real-time feedback."
+      },
+      "progress": {
+        "title": "Progress Tracking",
+        "description": "Monitor your learning journey with detailed analytics and performance insights."
+      },
+      "community": {
+        "title": "Community",
+        "description": "Connect with other learners, share knowledge, and participate in discussions."
+      }
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "roles": {
+        "fullStack": "Full Stack Developer",
+        "frontend": "Frontend Developer",
+        "backend": "Backend Developer"
+      }
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "description": "Have questions about Tsapqo or want to contribute to our project? We'd love to hear from you!",
+      "button": "Contact Us"
+    }
   }
 }

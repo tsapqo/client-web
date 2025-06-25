@@ -1,11 +1,27 @@
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
+const year = new Date().getFullYear();
 const Footer = () => {
+  const { t } = useTranslation();
+
   return (
-    <div className="flex justify-center items-center h-10 bg-slate-900 text-white">
-      <p>Copyright &copy; 2025</p>
-      <Link to="/terms">Terms and conditions</Link>
-    </div>
+    <footer className="bg-tsapqoSbg">
+      <div className="max-w-7xl text-sm lg:text-base mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-2 py-4">
+        <p className="text-center">Copyright &copy; {year} Tsapqo</p>
+        <div className="flex gap-4">
+          <Link to="/terms" className="hover:underline">
+            {t("footer.terms")}
+          </Link>
+          <Link to="/privacy" className="hover:underline">
+            {t("footer.privacy")}
+          </Link>
+          <Link to="/about" className="hover:underline">
+            {t("footer.about")}
+          </Link>
+        </div>
+      </div>
+    </footer>
   );
 };
 
