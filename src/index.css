@@ -36,4 +36,9 @@
   --color-tsapqoGreen: #68896a;
   --color-tsapqoBlue: #9dbebb;
   --color-tsapqoYellow: #7a6f5f;
+  --grid-cols-devsGrid: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+button {
+  cursor: pointer;
 }

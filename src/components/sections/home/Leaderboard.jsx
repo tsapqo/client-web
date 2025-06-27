@@ -19,24 +19,24 @@ const LeaderboardSection = () => {
       rank: 1,
       name: "Ahmed Al-Rashid",
       points: 2847,
-      quizzes: 156,
-      accuracy: 94,
-      avatar: "/imgs/avatar1.jpg",
+      country: "Saudi Arabia",
+      city: "Riyadh",
+      avatar: "/imgs/mazin.png",
     },
     {
       rank: 2,
       name: "Fatima Zahra",
       points: 2653,
-      quizzes: 142,
-      accuracy: 91,
+      country: "Saudi Arabia",
+      city: "Riyadh",
       avatar: "/imgs/avatar2.jpg",
     },
     {
       rank: 3,
       name: "Omar Khalil",
       points: 2418,
-      quizzes: 128,
-      accuracy: 89,
+      country: "Egypt",
+      city: "Cairo",
       avatar: "/imgs/avatar3.jpg",
     },
   ];
@@ -179,7 +179,7 @@ const LeaderboardSection = () => {
                             {user.name}
                           </div>
                           <div className="text-sm text-gray-500">
-                            {t("leaderboard.table.quizzes")}: {user.quizzes}
+                            {user.country} - {user.city}
                           </div>
                         </div>
                       </div>

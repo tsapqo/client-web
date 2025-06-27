@@ -1,5 +1,6 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
+import ContactCard from "../../shared/ContactCard";
 
 const developers = [
   {
@@ -161,25 +162,28 @@ const About = () => {
         <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">
           {t("about.team.title")}
         </h2>
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-8">
           {developers.map((developer, index) => (
             <div
               key={index}
-              className="rounded-2xl flex flex-col items-center justify-center overflow-hidden "
+              className="flex flex-col items-center justify-center overflow-hidden "
             >
-              <div
-                style={{ backgroundImage: `url(${developer.image})` }}
-                className="w-32 h-32 bg-white rounded-full bg-cover bg-center"
-              ></div>
+              <div className="relative rounded-full overflow-hidden w-32 h-32">
+                <img
+                  src={developer.image}
+                  alt={`Profile picture of ${developer.name}`}
+                  className="object-cover object-center "
+                />
+              </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-center text-gray-900 mb-1">
                   {developer.name}
                 </h3>
-                <p className="text-blue-600 text-center font-medium mb-3">
+                <p className="text-white text-center font-medium mb-3">
                   {developer.roleKey}
                 </p>
 
-                <div className="flex space-x-3">
+                <div className="flex space-x-3 w-[200px]">
                   <a
                     href={developer.github}
                     target="_blank"
@@ -204,33 +208,7 @@ const About = () => {
       </div>
 
       {/* Contact Section */}
-      <div className="mt-16 text-center bg-gray-50 rounded-2xl p-8">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">
-          {t("about.contact.title")}
-        </h2>
-        <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-          {t("about.contact.description")}
-        </p>
-        <a
-          href="mailto:contact@tsapqo.com"
-          className="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors duration-200"
-        >
-          <svg
-            className="w-5 h-5 mr-2"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-            />
-          </svg>
-          {t("about.contact.button")}
-        </a>
-      </div>
+      <ContactCard />
     </div>
   );
 };

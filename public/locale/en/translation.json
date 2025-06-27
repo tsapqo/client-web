@@ -14,6 +14,17 @@
     "quizzes": "Test Yourself",
     "learn": "Browse Lessons"
   },
+  "contact": {
+    "title": "Get in Touch",
+    "description": "Have questions about Tsapqo or want to contribute to our project? We'd love to hear from you!",
+    "button": "Contact Us",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Submit"
+    }
+  },
   "lessons": {
     "title": "Islamic Lessons",
     "description": "Explore comprehensive lessons on Islamic topics, from Quranic studies to Islamic history",
@@ -42,6 +53,37 @@
         "description": "Learn about Islamic law and religious practices",
         "duration": "40 min",
         "level": "Advanced"
+      }
+    }
+  },
+  "homeQuizzes": {
+    "title": "Test Your Knowledge",
+    "description": "Challenge yourself with interactive quizzes covering various Islamic topics. Earn points, track your progress, and compete with others.",
+    "viewAll": "View All Quizzes",
+    "items": {
+      "quran": {
+        "title": "Quran Quiz",
+        "description": "Test your knowledge of the Holy Quran, its verses, and interpretations",
+        "questions": "20 Questions",
+        "difficulty": "Beginner"
+      },
+      "hadith": {
+        "title": "Hadith Quiz",
+        "description": "Challenge yourself with questions about the sayings and actions of Prophet Muhammad (PBUH)",
+        "questions": "15 Questions",
+        "difficulty": "Intermediate"
+      },
+      "sahaba": {
+        "title": "Sahaba Quiz",
+        "description": "Learn about the companions of Prophet Muhammad (PBUH) and their stories",
+        "questions": "18 Questions",
+        "difficulty": "Beginner"
+      },
+      "history": {
+        "title": "Islamic History Quiz",
+        "description": "Explore the rich history of Islamic civilization and its achievements",
+        "questions": "25 Questions",
+        "difficulty": "Advanced"
       }
     }
   },
@@ -77,6 +119,24 @@
     "terms": "Terms & Conditions",
     "privacy": "Privacy Policy",
     "about": "About Us"
+  },
+  "terms": {
+    "title": "📜 Terms & Conditions",
+    "welcome": "Welcome to Tsapqo 👋",
+    "intro": "By using our platform, you agree to the following:",
+    "terms": {
+      "platform": "The platform is designed to help you and provide useful content in a safe and simplified way.",
+      "respectful": "Please use the platform respectfully, without abuse or violation.",
+      "privacy": "We respect your privacy and do not share your data with any external party.",
+      "content": "All content is for educational and learning purposes only.",
+      "updates": "We may update these terms from time to time, and we will make sure to inform you of that."
+    },
+    "contact": {
+      "text": "If you have any questions or inquiries, contact us at:",
+      "email": "support@tsapqo.com"
+    },
+    "thanks": "Thank you for your trust ❤️",
+    "backHome": "← Back to Home"
   },
   "about": {
     "hero": {
@@ -120,11 +180,6 @@
         "frontend": "Frontend Developer",
         "backend": "Backend Developer"
       }
-    },
-    "contact": {
-      "title": "Get in Touch",
-      "description": "Have questions about Tsapqo or want to contribute to our project? We'd love to hear from you!",
-      "button": "Contact Us"
     }
   }
 }
