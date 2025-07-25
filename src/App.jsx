@@ -14,7 +14,7 @@ import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 import HttpApi from "i18next-http-backend";
 import Layout from "./components/shared/Layout";
-
+import ForgetPassword from "./pages/auth/ForgetPassword";
 // i18n config for translation
 i18n
   .use(LanguageDetector)
@@ -56,6 +56,7 @@ function App() {
         <Route path="/admin" element={<Dashboard />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/forget-password" element={<ForgetPassword />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>

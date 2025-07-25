@@ -1,0 +1,127 @@
+.auth_input{
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    background-color: white;
+    padding: 10px;
+    line-height: 5px;
+}
+.auth_input:focus,
+.auth_input:focus-visible {
+    border: none !important;
+    outline: none !important;
+}
+.input_container{
+    position: relative;
+    margin-top: 20px;
+}
+.authtext{
+    margin: 0 10px;
+    position: absolute;
+    top: 3px;
+    display: block;
+    transition: .2s;
+}
+.auth_input:focus ~ .auth_label,
+ .auth_input:valid~ .auth_label{
+    top: -10px;
+}
+
+.auth_container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  margin: 0px auto;
+  padding: 30px;
+  background-color: #d5c7b3;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: "CordaleArabic", sans-serif;
+  color: black;
+}
+
+.auth_title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #68896a;
+}
+
+.auth_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input_container {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.auth_input {
+  width: 100%;
+  border: 1px solid #7a6f5f;
+  border-radius: 5px;
+  height: 45px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  background-color: #e7e5e2;
+  transition: border-color 0.3s ease;
+  color: black;
+}
+
+.auth_input:focus ,
+ .auth_input:valid {
+   outline: none;
+   border: none;
+}
+
+
+.auth_label {
+  position: absolute;
+  top: 12px;
+  left: 15px;
+  color: #7a6f5f;
+  font-size: 0.9rem;
+  pointer-events: none;
+  transition: all 0.2s ease;
+}
+
+.auth_button {
+  background-color: #68896a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 45px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth_button:hover {
+  background-color: #9dbebb;
+}
+
+.auth_links {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.auth_link {
+  color: #68896a;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.auth_link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 360px) {
+  .auth_container {
+    width: 100%;
+    padding: 20px;
+  }
+}
