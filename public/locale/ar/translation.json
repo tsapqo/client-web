@@ -164,5 +164,17 @@
     "team": {
       "title": "تعرف على فريقنا"
     }
+  },"auth":{
+    "login_title":"تسجيل الدخول",
+    "email":"الإيميل",
+    "password":"كلمة المرور",
+    "confirmPassword":"اعد إدخال كلمة المرور",
+    "login_button":"دخول",
+    "register_title":"تسجيل",
+    "register_button":"إنشاء حساب",
+    "forgot_password":"نسيت كلمة المرور",
+    "haveaccount":"بالفعل تمتلك حساب؟ تسجيل الدخول",
+    "backtologin":"الرجوع الى تسجيل الدخول",
+    "resetPassword":"استرجاع كلمة المرور"
   }
 }

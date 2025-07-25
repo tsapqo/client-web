@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 const year = new Date().getFullYear();
-const Footer = () => {
+export default function Footer() {
   const { t } = useTranslation();
 
   return (
@@ -25,4 +25,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+

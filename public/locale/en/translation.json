@@ -177,5 +177,17 @@
         "backend": "Backend Developer"
       }
     }
+  },"auth":{
+    "login_title":"Login",
+    "email":"Email",
+    "password":"password",
+    "confirmPassword":"Confirm Password",
+    "login_button":"Login",
+    "register_title":"Sign Up",
+    "register_button":"Sign Up",
+    "forgot_password":"Forgot Password",
+    "haveaccount":"Already have an account? Login",
+    "backtologin":"Back to Login",
+    "resetPassword":"Reset Password"
   }
 }
