@@ -1,0 +1,76 @@
+/Auth/login
+
+{
+  "email": "",
+  "password": ""
+}
+
+{
+  "id": "",
+  "email": "",
+  "Token": "Ab123456@",
+ "expiresIn": "30000000",
+  "name": "saad",
+  "refreshTokenExpiration": "2025-10-1"
+  "photo": null,
+  "role: User | Admin | Setter,
+  "isVerified": true,
+  "lastLogin": "2025-06-27T18:07:36.696Z",
+  "createdAt": "2025-06-27T18:06:19.406Z",
+  "updatedAt": "2025-06-27T18:07:36.697Z"
+}
+
+Auth/refresh
+{
+    "Token" : "asdfsadf",
+    "RefreshToken" : "asdfasdf"
+}
+
+{
+  "id": "",
+  "email": "",
+  "Token": "Ab123456@",
+ "expiresIn": "30000000",
+  "name": "saad",
+  "refreshTokenExpiration": "2025-10-1"
+  "photo": null,
+  "role: User | Admin | Setter,
+  "isVerified": true,
+  "lastLogin": "2025-06-27T18:07:36.696Z",
+  "createdAt": "2025-06-27T18:06:19.406Z",
+  "updatedAt": "2025-06-27T18:07:36.697Z"
+}
+
+Auth/register
+
+{
+  "email": "marcelino.saad@proton.me",
+  "password": "Ab123456@",
+  "name": "xyz",
+}
+
+Auth/confirm-email
+
+{
+    "userId" : "386fe755-c078-4bd2-bacc-90b2e673858f",
+    "code":"Q2ZESjhONVFWT2RL"
+}
+
+
+Auth/resend-confirmation-email
+{
+  "email": "8eef98957b@emaily.pro"
+}
+
+Auth/forget-password
+
+{
+  "email": "8eef98957b@emaily.pro"
+}
+
+Auth/reset-password
+{
+  "email": "marcelino.saad@proton.me",
+  "code":"Q2ZESjhONVFWT2RL",
+  "password": "Ab123456@"
+}

@@ -62,28 +62,24 @@
     "viewAll": "View All Quizzes",
     "items": {
       "quran": {
-        "title": "Quran Quiz",
+        "title": "Quran Questions",
         "description": "Test your knowledge of the Holy Quran, its verses, and interpretations",
-        "questions": "20 Questions",
-        "difficulty": "Beginner"
+        "questions": "20 Questions"
       },
       "hadith": {
-        "title": "Hadith Quiz",
+        "title": "Hadith & Sunnah Questions",
         "description": "Challenge yourself with questions about the sayings and actions of Prophet Muhammad (PBUH)",
-        "questions": "15 Questions",
-        "difficulty": "Intermediate"
+        "questions": "15 Questions"
       },
       "sahaba": {
-        "title": "Sahaba Quiz",
+        "title": "Sahaba Questions",
         "description": "Learn about the companions of Prophet Muhammad (PBUH) and their stories",
-        "questions": "18 Questions",
-        "difficulty": "Beginner"
+        "questions": "18 Questions"
       },
       "history": {
-        "title": "Islamic History Quiz",
+        "title": "Islamic History Questions",
         "description": "Explore the rich history of Islamic civilization and its achievements",
-        "questions": "25 Questions",
-        "difficulty": "Advanced"
+        "questions": "25 Questions"
       }
     }
   },

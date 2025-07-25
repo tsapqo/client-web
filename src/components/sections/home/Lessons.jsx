@@ -5,7 +5,7 @@ const LessonsSection = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
 
-  const lessonItems = ["quran", "hadith", "history", "fiqh"];
+  const lessonItems = ["quran", "hadith", "sahaba", "history"];
 
   return (
     <section className="py-12 md:py-16">
