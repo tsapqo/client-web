@@ -23,10 +23,10 @@ export default function Layout() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex-grow">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-[calc(83vh-1px)] py-10">
         <Outlet />
       </main>
       <Footer />
     </div>
   );
-};
+}

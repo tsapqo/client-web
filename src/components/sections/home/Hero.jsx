@@ -6,7 +6,7 @@ const Hero = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="py-14">
+    <section className="pb-12 pt-6">
       <div className="flex flex-col items-center justify-center gap-4 max-w-3xl mx-auto">
         <h1 className="text-3xl lg:text-5xl font-bold text-center leading-tight">
           {t("home.title")}

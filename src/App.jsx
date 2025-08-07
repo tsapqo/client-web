@@ -4,6 +4,8 @@ import About from "./pages/About";
 import Terms from "./pages/Terms";
 import NotFound from "./pages/NotFound";
 import Quizzes from "./pages/Quizzes";
+import Quiz from "./pages/Quiz";
+import QuizAll from "./pages/QuizAll";
 import Learn from "./pages/Learn";
 import LeaderBoard from "./pages/LeaderBoard";
 import Dashboard from "./pages/admin/Dashboard";
@@ -51,6 +53,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/quizzes" element={<Quizzes />} />
+        <Route path="/quizzes/:topic" element={<Quiz />} />
+        <Route path="/quizzes/:topic/all" element={<QuizAll />} />
         <Route path="/learn" element={<Learn />} />
         <Route path="/leaderboard" element={<LeaderBoard />} />
         <Route path="/admin" element={<Dashboard />} />

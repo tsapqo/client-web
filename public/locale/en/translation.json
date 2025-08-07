@@ -109,6 +109,43 @@
       "description": "Login to access quizzes and compete with your friends",
       "action": "Login",
       "close": "Continue Without Login"
+    },
+    "title": "Quizzes",
+    "description": "Challenge yourself with interactive quizzes covering various Islamic topics. Earn points, track your progress, and compete with others.",
+    "items": {
+      "title": "Choose Your Domain",
+      "quran": {
+        "title": "Quran Questions",
+        "description": "Test your knowledge of the Holy Quran, its verses, and interpretations"
+      },
+      "hadith": {
+        "title": "Hadith Questions",
+        "description": "Test your knowledge of the Hadith, its sayings, and actions of Prophet Muhammad (PBUH)"
+      },
+      "sahaba": {
+        "title": "Sahaba Questions",
+        "description": "Test your knowledge of the Sahaba, their stories, and their contributions to the Islamic history"
+      },
+      "fiqh": {
+        "title": "Fiqh and Sharia Questions",
+        "description": "Test your knowledge of Islamic law and religious practices, and the Sharia laws"
+      },
+      "ramadan": {
+        "title": "Ramadan Questions",
+        "description": "Test your knowledge of Ramadan, its fasting, and its benefits"
+      },
+      "prophets": {
+        "title": "Prophets Questions",
+        "description": "Test your knowledge of the Prophets, their stories, and their contributions to the Islamic history"
+      },
+      "salah": {
+        "title": "Salah Questions",
+        "description": "Test your knowledge of the Salah, its prayers, and its benefits"
+      },
+      "history": {
+        "title": "Islamic History Questions",
+        "description": "Explore the rich history of Islamic civilization and its achievements"
+      }
     }
   },
   "footer": {
@@ -177,17 +214,18 @@
         "backend": "Backend Developer"
       }
     }
-  },"auth":{
-    "login_title":"Login",
-    "email":"Email",
-    "password":"password",
-    "confirmPassword":"Confirm Password",
-    "login_button":"Login",
-    "register_title":"Sign Up",
-    "register_button":"Sign Up",
-    "forgot_password":"Forgot Password",
-    "haveaccount":"Already have an account? Login",
-    "backtologin":"Back to Login",
-    "resetPassword":"Reset Password"
+  },
+  "auth": {
+    "login_title": "Login",
+    "email": "Email",
+    "password": "password",
+    "confirmPassword": "Confirm Password",
+    "login_button": "Login",
+    "register_title": "Sign Up",
+    "register_button": "Sign Up",
+    "forgot_password": "Forgot Password",
+    "haveaccount": "Already have an account? Login",
+    "backtologin": "Back to Login",
+    "resetPassword": "Reset Password"
   }
 }

@@ -34,7 +34,12 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link to="/" className="text-xl font-bold">
+            <Link to="/" className="text-xl font-bold flex items-center gap-2">
+              <img
+                src="/imgs/final-logo-no-bg.png"
+                alt="logo"
+                className="w-10 h-10"
+              />
               {t("header.logo")}
             </Link>
           </div>
@@ -92,12 +97,20 @@ const Header = () => {
               className={`hover:bg-tsapqoSbg p-2 rounded-md transition-all duration-300 ${
                 active === link.href ? "bg-tsapqoSbg" : ""
               }`}
-              onClick={() => setActive(link.href === active ? null : link.href)}
+              onClick={() => {
+                setActive(link.href === active ? null : link.href);
+                setIsOpen(false);
+              }}
             >
               {link.name}
             </Link>
           ))}
-          <BlackButton onClick={() => navigate("/login")}>
+          <BlackButton
+            onClick={() => {
+              navigate("/login");
+              setIsOpen(false);
+            }}
+          >
             {t("header.login")}
           </BlackButton>
         </nav>
