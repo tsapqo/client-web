@@ -18,12 +18,9 @@ const QuizAll = () => {
       <div className="p-6 border border-black rounded-lg flex flex-col gap-6">
         {question.map((question) => (
           <div key={question.id} className="flex flex-col gap-4">
-            <h3 className="text-lg font-bold">{question.arabic}</h3>
-            <div className="flex flex-col gap-4">
-              {question.arabicOptions.map((option) => (
-                <div key={option}>{option}</div>
-              ))}
-            </div>
+            <Link className="text-lg font-bold" to={`/quizzes/${topic}`}>
+              {question.arabic}
+            </Link>
           </div>
         ))}
       </div>
