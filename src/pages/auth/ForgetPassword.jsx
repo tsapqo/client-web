@@ -1,14 +1,17 @@
 import React, { useState } from "react";
 import './auth.css';
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 export default function ForgetPassword() {
+  const navigate = useNavigate();
   const { t } = useTranslation();
   const [email, setEmail] = useState("");
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle forget password logic here
     console.log("Password reset requested for", email);
+    navigate("/reset-password");
   };
 
   return (

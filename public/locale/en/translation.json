@@ -226,6 +226,7 @@
     "forgot_password": "Forgot Password",
     "haveaccount": "Already have an account? Login",
     "backtologin": "Back to Login",
-    "resetPassword": "Reset Password"
+    "resetPassword": "Reset Password",
+    "otp":"Enter OTP"
   }
 }
